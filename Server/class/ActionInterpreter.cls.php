@@ -29,6 +29,7 @@ class ActionInterpreter {
         return call_user_func(array($this, $this->_baseAction), $this->_requestArray);
     }
     function auth($array){
-        return CryptoCreator::createHash($array['userName'], $array['machineName']);
+        
+        //return CryptoCreator::createHash($array['userName'], $array['machineName']);
     }
 }
