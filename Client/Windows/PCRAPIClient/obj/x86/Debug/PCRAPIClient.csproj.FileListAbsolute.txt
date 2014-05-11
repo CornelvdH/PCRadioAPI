@@ -1,0 +1,7 @@
+C:\Users\Administrator\Documents\SharpDevelop Projects\PCRAPIClient\PCRAPIClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\SharpDevelop Projects\PCRAPIClient\PCRAPIClient\obj\x86\Debug\PCRAPIClient.MainForm.resources
+C:\Users\Administrator\Documents\SharpDevelop Projects\PCRAPIClient\PCRAPIClient\obj\x86\Debug\PCRAPIClient.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\SharpDevelop Projects\PCRAPIClient\PCRAPIClient\bin\Debug\PCRAPIClient.exe
+C:\Users\Administrator\Documents\SharpDevelop Projects\PCRAPIClient\PCRAPIClient\bin\Debug\PCRAPIClient.pdb
+C:\Users\Administrator\Documents\SharpDevelop Projects\PCRAPIClient\PCRAPIClient\obj\x86\Debug\PCRAPIClient.exe
+C:\Users\Administrator\Documents\SharpDevelop Projects\PCRAPIClient\PCRAPIClient\obj\x86\Debug\PCRAPIClient.pdb
