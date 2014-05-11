@@ -10,11 +10,11 @@ define("DB_USER", "root");
 /**
  * Set our database password.
  */
-define("DB_PASS", "Q!W@E#");
+define("DB_PASS", "sopuu7vu");
 /**
  * Set the default schema (database).
  */
-define("DB_NAME", "test");
+define("DB_NAME", "apidata");
 /**
  * At the end of this definitions file, we tell the application we are loaded.
  */
