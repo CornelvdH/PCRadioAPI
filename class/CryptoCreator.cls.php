@@ -15,7 +15,7 @@ require_once BASE_DIR . '/lib/password.php';
 
 class CryptoCreator {
 
-    const CRYPTO_TABLE = "serials";
+    const CRYPTO_TABLE = "apikeys";
 
     private static function createSalt($saltValue, $rand) {
         return md5($saltValue . "-" . $rand);
