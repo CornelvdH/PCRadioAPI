@@ -23,9 +23,10 @@ require_once BASE_DIR . "/lib/AutoLoader.lib.php";
 
 spl_autoload_register('doAutoLoad');
 
-$pb = new PageBuilder("main");
-$pb->addStylesheet("general.css");
-$pb->addScript("main.js");
-echo "<pre>";
-print_r($pb->_dataArray);
-echo "</pre>";
+/**
+ * Get data provider based on action requested.
+ */
+
+$action = new ActionInterpreter($_GET);
+echo $action->run();
+
