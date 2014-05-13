@@ -29,4 +29,4 @@ spl_autoload_register('doAutoLoad');
 
 $action = new ActionInterpreter($_GET, $_POST);
 echo $action->run();
-
+$soap = new Soap();
