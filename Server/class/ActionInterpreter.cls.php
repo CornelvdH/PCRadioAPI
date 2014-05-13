@@ -14,11 +14,13 @@
 class ActionInterpreter {
     var $_requestArray;
     var $_baseAction;
+    var $_postArray;
     
     const ACTION_KEY = "action";
     
-    function __construct($postArray){
-        $this->_requestArray = $postArray;
+    function __construct($getArray, $postArray){
+        $this->_requestArray = $getArray;
+        $this->_postArray = $postArray;
         if(array_key_exists(self::ACTION_KEY, $this->_requestArray)){
             $this->_baseAction = $this->_requestArray[self::ACTION_KEY];
         } else {
@@ -26,9 +28,9 @@ class ActionInterpreter {
         }
     }
     function run(){
-        return call_user_func(array($this, $this->_baseAction), $this->_requestArray);
+        return call_user_func(array($this, $this->_baseAction));
     }
-    function auth($array){
+    function auth(){
         
         //return CryptoCreator::createHash($array['userName'], $array['machineName']);
     }
