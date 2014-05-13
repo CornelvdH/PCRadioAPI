@@ -27,6 +27,6 @@ spl_autoload_register('doAutoLoad');
  * Get data provider based on action requested.
  */
 
-$action = new ActionInterpreter($_GET, $_POST);
-echo $action->run();
+//$action = new ActionInterpreter($_GET, $_POST);
+//echo $action->run();
 $soap = new Soap();
