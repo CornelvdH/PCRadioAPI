@@ -18,6 +18,6 @@ class Soap {
         $rootElement = $this->_xmlDoc->createElement("root");
         $rootElement->nodeValue = "Test 123";
         $this->_xmlDoc->appendChild($rootElement);
-        $this->_xmlDoc->save(BASE_DIR . '/example.xml');
+        $this->_xmlDoc->save(BASE_DIR . '/xml/example.xml');
     }
 }
