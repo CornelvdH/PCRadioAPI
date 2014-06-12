@@ -1,4 +1,4 @@
-#Include <GuiMonthCal.au3> ; $tagSYSTEMTIME is defined in here.
+;#Include <GuiMonthCal.au3> ; $tagSYSTEMTIME is defined in here.
 Local $hWnd = WinActivate("PC-Radio 6")
 Send("!bop")
 ;MouseMove(640, 512)
@@ -8,7 +8,7 @@ If $reshifts < 0 Then
 	  $reshifts = $reshifts + 1;
 	  Send("{PGUP}")
    Until $reshifts = 0
-Else
+ElseIf $reshifts > 0 Then
    Do
 	  $reshifts = $reshifts - 1;
 	  Send("{PGDN}")
@@ -27,6 +27,6 @@ EndIf
 
 Send("{ENTER}")
 
-Send("!bh{UP}{ENTER}")
-Local $closeHandle = WinWaitActive("[CLASS:Notepad]")
-WinClose($closeHandle)
+;Send("!bh{UP}{ENTER}")
+;Local $closeHandle = WinWaitActive("[CLASS:Notepad]")
+;WinClose($closeHandle)
