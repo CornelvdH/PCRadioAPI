@@ -1,0 +1,7 @@
+Local $hWnd = WinActivate("PC-Radio 6")
+Send("{F11}")
+Send("!bet")
+Send($CmdLine[1])
+Send("{ENTER}")
+Local $closeHandle = WinWaitActive("[CLASS:Notepad]")
+WinClose($closeHandle)
