@@ -10,7 +10,7 @@ define("DB_USER", "root");
 /**
  * Set our database password.
  */
-define("DB_PASS", "sopuu7vu");
+define("DB_PASS", "");
 /**
  * Set the default schema (database).
  */
